@@ -76,6 +76,7 @@ class $modify(SoundsBaseLayer, GJBaseGameLayer) {
 
 		if (Mod::get()->getSettingValue<bool>("use-resources")) {
 			auto soundFromResources = fmt::format("{}.ogg"_spr, triggeredEvent);
+			if (!std::filesystem::exists(soundFromResources)) return;
 			FMODAudioEngine::sharedEngine()->playEffect(soundFromResources.c_str());
 		} else {
 			auto soundFromSettings = Mod::get()->getSettingValue<std::filesystem::path>(triggeredEvent);
