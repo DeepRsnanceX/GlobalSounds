@@ -32,7 +32,8 @@ def modJson():
                 "type": "file",
                 "name": f"{readableName} Sound",
                 "description": f"Sound file to play when the {readableName} event is triggered.",
-                "default": "{mod_resources_dir}/" + eventName + ".ogg",
+                "default": "{mod_resources_dir}/unset.ogg",
+                "enable-if": "!use-resources",
                 "control": {
                     "dialog": "open",
                     "filters": [

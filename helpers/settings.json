@@ -1,94 +1,10 @@
 {
-    "TinyLanding": {
-        "type": "file",
-        "name": "Tiny Landing Sound",
-        "description": "Sound file to play when Tiny Landing event is triggered.",
-        "default": "{mod_resources_dir}/TinyLanding.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "FeatherLanding": {
-        "type": "file",
-        "name": "Feather Landing Sound",
-        "description": "Sound file to play when Feather Landing event is triggered.",
-        "default": "{mod_resources_dir}/FeatherLanding.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "SoftLanding": {
-        "type": "file",
-        "name": "Soft Landing Sound",
-        "description": "Sound file to play when Soft Landing event is triggered.",
-        "default": "{mod_resources_dir}/SoftLanding.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "NormalLanding": {
-        "type": "file",
-        "name": "Normal Landing Sound",
-        "description": "Sound file to play when Normal Landing event is triggered.",
-        "default": "{mod_resources_dir}/NormalLanding.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "HardLanding": {
-        "type": "file",
-        "name": "Hard Landing Sound",
-        "description": "Sound file to play when Hard Landing event is triggered.",
-        "default": "{mod_resources_dir}/HardLanding.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
     "HitHead": {
         "type": "file",
         "name": "Hit Head Sound",
-        "description": "Sound file to play when Hit Head event is triggered.",
+        "description": "Sound file to play when the Hit Head event is triggered.",
         "default": "{mod_resources_dir}/HitHead.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -104,42 +20,9 @@
     "OrbTouched": {
         "type": "file",
         "name": "Orb Touched Sound",
-        "description": "Sound file to play when Orb Touched event is triggered.",
+        "description": "Sound file to play when the Orb Touched event is triggered.",
         "default": "{mod_resources_dir}/OrbTouched.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "OrbActivated": {
-        "type": "file",
-        "name": "Orb Activated Sound",
-        "description": "Sound file to play when Orb Activated event is triggered.",
-        "default": "{mod_resources_dir}/OrbActivated.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "PadActivated": {
-        "type": "file",
-        "name": "Pad Activated Sound",
-        "description": "Sound file to play when Pad Activated event is triggered.",
-        "default": "{mod_resources_dir}/PadActivated.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -155,8 +38,9 @@
     "GravityInverted": {
         "type": "file",
         "name": "Gravity Inverted Sound",
-        "description": "Sound file to play when Gravity Inverted event is triggered.",
+        "description": "Sound file to play when the Gravity Inverted event is triggered.",
         "default": "{mod_resources_dir}/GravityInverted.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -172,8 +56,9 @@
     "GravityRestored": {
         "type": "file",
         "name": "Gravity Restored Sound",
-        "description": "Sound file to play when Gravity Restored event is triggered.",
+        "description": "Sound file to play when the Gravity Restored event is triggered.",
         "default": "{mod_resources_dir}/GravityRestored.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -189,8 +74,9 @@
     "NormalJump": {
         "type": "file",
         "name": "Normal Jump Sound",
-        "description": "Sound file to play when Normal Jump event is triggered.",
+        "description": "Sound file to play when the Normal Jump event is triggered.",
         "default": "{mod_resources_dir}/NormalJump.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -206,8 +92,9 @@
     "RobotBoostStart": {
         "type": "file",
         "name": "Robot Boost Start Sound",
-        "description": "Sound file to play when Robot Boost Start event is triggered.",
+        "description": "Sound file to play when the Robot Boost Start event is triggered.",
         "default": "{mod_resources_dir}/RobotBoostStart.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -223,8 +110,9 @@
     "RobotBoostStop": {
         "type": "file",
         "name": "Robot Boost Stop Sound",
-        "description": "Sound file to play when Robot Boost Stop event is triggered.",
+        "description": "Sound file to play when the Robot Boost Stop event is triggered.",
         "default": "{mod_resources_dir}/RobotBoostStop.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -240,8 +128,9 @@
     "UFOJump": {
         "type": "file",
         "name": "U F O Jump Sound",
-        "description": "Sound file to play when U F O Jump event is triggered.",
+        "description": "Sound file to play when the U F O Jump event is triggered.",
         "default": "{mod_resources_dir}/UFOJump.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -257,8 +146,9 @@
     "ShipBoostStart": {
         "type": "file",
         "name": "Ship Boost Start Sound",
-        "description": "Sound file to play when Ship Boost Start event is triggered.",
+        "description": "Sound file to play when the Ship Boost Start event is triggered.",
         "default": "{mod_resources_dir}/ShipBoostStart.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -274,8 +164,9 @@
     "ShipBoostEnd": {
         "type": "file",
         "name": "Ship Boost End Sound",
-        "description": "Sound file to play when Ship Boost End event is triggered.",
+        "description": "Sound file to play when the Ship Boost End event is triggered.",
         "default": "{mod_resources_dir}/ShipBoostEnd.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -291,8 +182,9 @@
     "SpiderTeleport": {
         "type": "file",
         "name": "Spider Teleport Sound",
-        "description": "Sound file to play when Spider Teleport event is triggered.",
+        "description": "Sound file to play when the Spider Teleport event is triggered.",
         "default": "{mod_resources_dir}/SpiderTeleport.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -308,8 +200,9 @@
     "BallSwitch": {
         "type": "file",
         "name": "Ball Switch Sound",
-        "description": "Sound file to play when Ball Switch event is triggered.",
+        "description": "Sound file to play when the Ball Switch event is triggered.",
         "default": "{mod_resources_dir}/BallSwitch.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -325,8 +218,9 @@
     "SwingSwitch": {
         "type": "file",
         "name": "Swing Switch Sound",
-        "description": "Sound file to play when Swing Switch event is triggered.",
+        "description": "Sound file to play when the Swing Switch event is triggered.",
         "default": "{mod_resources_dir}/SwingSwitch.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -342,8 +236,9 @@
     "WavePush": {
         "type": "file",
         "name": "Wave Push Sound",
-        "description": "Sound file to play when Wave Push event is triggered.",
+        "description": "Sound file to play when the Wave Push event is triggered.",
         "default": "{mod_resources_dir}/WavePush.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -359,8 +254,9 @@
     "WaveRelease": {
         "type": "file",
         "name": "Wave Release Sound",
-        "description": "Sound file to play when Wave Release event is triggered.",
+        "description": "Sound file to play when the Wave Release event is triggered.",
         "default": "{mod_resources_dir}/WaveRelease.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -376,8 +272,9 @@
     "DashStart": {
         "type": "file",
         "name": "Dash Start Sound",
-        "description": "Sound file to play when Dash Start event is triggered.",
+        "description": "Sound file to play when the Dash Start event is triggered.",
         "default": "{mod_resources_dir}/DashStart.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -393,8 +290,9 @@
     "DashStop": {
         "type": "file",
         "name": "Dash Stop Sound",
-        "description": "Sound file to play when Dash Stop event is triggered.",
+        "description": "Sound file to play when the Dash Stop event is triggered.",
         "default": "{mod_resources_dir}/DashStop.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -410,8 +308,9 @@
     "Teleported": {
         "type": "file",
         "name": "Teleported Sound",
-        "description": "Sound file to play when Teleported event is triggered.",
+        "description": "Sound file to play when the Teleported event is triggered.",
         "default": "{mod_resources_dir}/Teleported.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -427,8 +326,9 @@
     "PortalNormal": {
         "type": "file",
         "name": "Portal Normal Sound",
-        "description": "Sound file to play when Portal Normal event is triggered.",
+        "description": "Sound file to play when the Portal Normal event is triggered.",
         "default": "{mod_resources_dir}/PortalNormal.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -444,8 +344,9 @@
     "PortalShip": {
         "type": "file",
         "name": "Portal Ship Sound",
-        "description": "Sound file to play when Portal Ship event is triggered.",
+        "description": "Sound file to play when the Portal Ship event is triggered.",
         "default": "{mod_resources_dir}/PortalShip.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -461,8 +362,9 @@
     "PortalBall": {
         "type": "file",
         "name": "Portal Ball Sound",
-        "description": "Sound file to play when Portal Ball event is triggered.",
+        "description": "Sound file to play when the Portal Ball event is triggered.",
         "default": "{mod_resources_dir}/PortalBall.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -478,8 +380,9 @@
     "PortalUFO": {
         "type": "file",
         "name": "Portal U F O Sound",
-        "description": "Sound file to play when Portal U F O event is triggered.",
+        "description": "Sound file to play when the Portal U F O event is triggered.",
         "default": "{mod_resources_dir}/PortalUFO.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -495,8 +398,9 @@
     "PortalWave": {
         "type": "file",
         "name": "Portal Wave Sound",
-        "description": "Sound file to play when Portal Wave event is triggered.",
+        "description": "Sound file to play when the Portal Wave event is triggered.",
         "default": "{mod_resources_dir}/PortalWave.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -512,8 +416,9 @@
     "PortalRobot": {
         "type": "file",
         "name": "Portal Robot Sound",
-        "description": "Sound file to play when Portal Robot event is triggered.",
+        "description": "Sound file to play when the Portal Robot event is triggered.",
         "default": "{mod_resources_dir}/PortalRobot.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -529,8 +434,9 @@
     "PortalSpider": {
         "type": "file",
         "name": "Portal Spider Sound",
-        "description": "Sound file to play when Portal Spider event is triggered.",
+        "description": "Sound file to play when the Portal Spider event is triggered.",
         "default": "{mod_resources_dir}/PortalSpider.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -546,8 +452,9 @@
     "PortalSwing": {
         "type": "file",
         "name": "Portal Swing Sound",
-        "description": "Sound file to play when Portal Swing event is triggered.",
+        "description": "Sound file to play when the Portal Swing event is triggered.",
         "default": "{mod_resources_dir}/PortalSwing.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -563,8 +470,9 @@
     "YellowOrb": {
         "type": "file",
         "name": "Yellow Orb Sound",
-        "description": "Sound file to play when Yellow Orb event is triggered.",
+        "description": "Sound file to play when the Yellow Orb event is triggered.",
         "default": "{mod_resources_dir}/YellowOrb.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -580,8 +488,9 @@
     "PinkOrb": {
         "type": "file",
         "name": "Pink Orb Sound",
-        "description": "Sound file to play when Pink Orb event is triggered.",
+        "description": "Sound file to play when the Pink Orb event is triggered.",
         "default": "{mod_resources_dir}/PinkOrb.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -597,8 +506,9 @@
     "RedOrb": {
         "type": "file",
         "name": "Red Orb Sound",
-        "description": "Sound file to play when Red Orb event is triggered.",
+        "description": "Sound file to play when the Red Orb event is triggered.",
         "default": "{mod_resources_dir}/RedOrb.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -614,8 +524,9 @@
     "GravityOrb": {
         "type": "file",
         "name": "Gravity Orb Sound",
-        "description": "Sound file to play when Gravity Orb event is triggered.",
+        "description": "Sound file to play when the Gravity Orb event is triggered.",
         "default": "{mod_resources_dir}/GravityOrb.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -631,8 +542,9 @@
     "GreenOrb": {
         "type": "file",
         "name": "Green Orb Sound",
-        "description": "Sound file to play when Green Orb event is triggered.",
+        "description": "Sound file to play when the Green Orb event is triggered.",
         "default": "{mod_resources_dir}/GreenOrb.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -648,8 +560,9 @@
     "DropOrb": {
         "type": "file",
         "name": "Drop Orb Sound",
-        "description": "Sound file to play when Drop Orb event is triggered.",
+        "description": "Sound file to play when the Drop Orb event is triggered.",
         "default": "{mod_resources_dir}/DropOrb.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -665,8 +578,9 @@
     "CustomOrb": {
         "type": "file",
         "name": "Custom Orb Sound",
-        "description": "Sound file to play when Custom Orb event is triggered.",
+        "description": "Sound file to play when the Custom Orb event is triggered.",
         "default": "{mod_resources_dir}/CustomOrb.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -682,8 +596,9 @@
     "DashOrb": {
         "type": "file",
         "name": "Dash Orb Sound",
-        "description": "Sound file to play when Dash Orb event is triggered.",
+        "description": "Sound file to play when the Dash Orb event is triggered.",
         "default": "{mod_resources_dir}/DashOrb.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -699,8 +614,9 @@
     "GravityDashOrb": {
         "type": "file",
         "name": "Gravity Dash Orb Sound",
-        "description": "Sound file to play when Gravity Dash Orb event is triggered.",
+        "description": "Sound file to play when the Gravity Dash Orb event is triggered.",
         "default": "{mod_resources_dir}/GravityDashOrb.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -716,8 +632,9 @@
     "SpiderOrb": {
         "type": "file",
         "name": "Spider Orb Sound",
-        "description": "Sound file to play when Spider Orb event is triggered.",
+        "description": "Sound file to play when the Spider Orb event is triggered.",
         "default": "{mod_resources_dir}/SpiderOrb.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -733,8 +650,9 @@
     "TeleportOrb": {
         "type": "file",
         "name": "Teleport Orb Sound",
-        "description": "Sound file to play when Teleport Orb event is triggered.",
+        "description": "Sound file to play when the Teleport Orb event is triggered.",
         "default": "{mod_resources_dir}/TeleportOrb.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -750,8 +668,9 @@
     "YellowPad": {
         "type": "file",
         "name": "Yellow Pad Sound",
-        "description": "Sound file to play when Yellow Pad event is triggered.",
+        "description": "Sound file to play when the Yellow Pad event is triggered.",
         "default": "{mod_resources_dir}/YellowPad.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -767,8 +686,9 @@
     "PinkPad": {
         "type": "file",
         "name": "Pink Pad Sound",
-        "description": "Sound file to play when Pink Pad event is triggered.",
+        "description": "Sound file to play when the Pink Pad event is triggered.",
         "default": "{mod_resources_dir}/PinkPad.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -784,8 +704,9 @@
     "RedPad": {
         "type": "file",
         "name": "Red Pad Sound",
-        "description": "Sound file to play when Red Pad event is triggered.",
+        "description": "Sound file to play when the Red Pad event is triggered.",
         "default": "{mod_resources_dir}/RedPad.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -801,8 +722,9 @@
     "GravityPad": {
         "type": "file",
         "name": "Gravity Pad Sound",
-        "description": "Sound file to play when Gravity Pad event is triggered.",
+        "description": "Sound file to play when the Gravity Pad event is triggered.",
         "default": "{mod_resources_dir}/GravityPad.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -818,8 +740,9 @@
     "SpiderPad": {
         "type": "file",
         "name": "Spider Pad Sound",
-        "description": "Sound file to play when Spider Pad event is triggered.",
+        "description": "Sound file to play when the Spider Pad event is triggered.",
         "default": "{mod_resources_dir}/SpiderPad.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -835,8 +758,9 @@
     "PortalGravityFlip": {
         "type": "file",
         "name": "Portal Gravity Flip Sound",
-        "description": "Sound file to play when Portal Gravity Flip event is triggered.",
+        "description": "Sound file to play when the Portal Gravity Flip event is triggered.",
         "default": "{mod_resources_dir}/PortalGravityFlip.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -852,8 +776,9 @@
     "PortalGravityNormal": {
         "type": "file",
         "name": "Portal Gravity Normal Sound",
-        "description": "Sound file to play when Portal Gravity Normal event is triggered.",
+        "description": "Sound file to play when the Portal Gravity Normal event is triggered.",
         "default": "{mod_resources_dir}/PortalGravityNormal.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -869,8 +794,9 @@
     "PortalGravityInvert": {
         "type": "file",
         "name": "Portal Gravity Invert Sound",
-        "description": "Sound file to play when Portal Gravity Invert event is triggered.",
+        "description": "Sound file to play when the Portal Gravity Invert event is triggered.",
         "default": "{mod_resources_dir}/PortalGravityInvert.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -886,8 +812,9 @@
     "PortalFlip": {
         "type": "file",
         "name": "Portal Flip Sound",
-        "description": "Sound file to play when Portal Flip event is triggered.",
+        "description": "Sound file to play when the Portal Flip event is triggered.",
         "default": "{mod_resources_dir}/PortalFlip.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -903,8 +830,9 @@
     "PortalUnFlip": {
         "type": "file",
         "name": "Portal Un Flip Sound",
-        "description": "Sound file to play when Portal Un Flip event is triggered.",
+        "description": "Sound file to play when the Portal Un Flip event is triggered.",
         "default": "{mod_resources_dir}/PortalUnFlip.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -920,8 +848,9 @@
     "PortalNormalScale": {
         "type": "file",
         "name": "Portal Normal Scale Sound",
-        "description": "Sound file to play when Portal Normal Scale event is triggered.",
+        "description": "Sound file to play when the Portal Normal Scale event is triggered.",
         "default": "{mod_resources_dir}/PortalNormalScale.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -937,8 +866,9 @@
     "PortalMiniScale": {
         "type": "file",
         "name": "Portal Mini Scale Sound",
-        "description": "Sound file to play when Portal Mini Scale event is triggered.",
+        "description": "Sound file to play when the Portal Mini Scale event is triggered.",
         "default": "{mod_resources_dir}/PortalMiniScale.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -954,8 +884,9 @@
     "PortalDualOn": {
         "type": "file",
         "name": "Portal Dual On Sound",
-        "description": "Sound file to play when Portal Dual On event is triggered.",
+        "description": "Sound file to play when the Portal Dual On event is triggered.",
         "default": "{mod_resources_dir}/PortalDualOn.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -971,8 +902,9 @@
     "PortalDualOff": {
         "type": "file",
         "name": "Portal Dual Off Sound",
-        "description": "Sound file to play when Portal Dual Off event is triggered.",
+        "description": "Sound file to play when the Portal Dual Off event is triggered.",
         "default": "{mod_resources_dir}/PortalDualOff.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -988,8 +920,9 @@
     "PortalTeleport": {
         "type": "file",
         "name": "Portal Teleport Sound",
-        "description": "Sound file to play when Portal Teleport event is triggered.",
+        "description": "Sound file to play when the Portal Teleport event is triggered.",
         "default": "{mod_resources_dir}/PortalTeleport.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -1005,8 +938,9 @@
     "Checkpoint": {
         "type": "file",
         "name": "Checkpoint Sound",
-        "description": "Sound file to play when Checkpoint event is triggered.",
+        "description": "Sound file to play when the Checkpoint event is triggered.",
         "default": "{mod_resources_dir}/Checkpoint.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -1022,8 +956,9 @@
     "DestroyBlock": {
         "type": "file",
         "name": "Destroy Block Sound",
-        "description": "Sound file to play when Destroy Block event is triggered.",
+        "description": "Sound file to play when the Destroy Block event is triggered.",
         "default": "{mod_resources_dir}/DestroyBlock.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -1039,8 +974,9 @@
     "UserCoin": {
         "type": "file",
         "name": "User Coin Sound",
-        "description": "Sound file to play when User Coin event is triggered.",
+        "description": "Sound file to play when the User Coin event is triggered.",
         "default": "{mod_resources_dir}/UserCoin.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -1056,8 +992,9 @@
     "PickupItem": {
         "type": "file",
         "name": "Pickup Item Sound",
-        "description": "Sound file to play when Pickup Item event is triggered.",
+        "description": "Sound file to play when the Pickup Item event is triggered.",
         "default": "{mod_resources_dir}/PickupItem.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -1073,178 +1010,9 @@
     "CheckpointRespawn": {
         "type": "file",
         "name": "Checkpoint Respawn Sound",
-        "description": "Sound file to play when Checkpoint Respawn event is triggered.",
+        "description": "Sound file to play when the Checkpoint Respawn event is triggered.",
         "default": "{mod_resources_dir}/CheckpointRespawn.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "FallLow": {
-        "type": "file",
-        "name": "Fall Low Sound",
-        "description": "Sound file to play when Fall Low event is triggered.",
-        "default": "{mod_resources_dir}/FallLow.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "FallMed": {
-        "type": "file",
-        "name": "Fall Med Sound",
-        "description": "Sound file to play when Fall Med event is triggered.",
-        "default": "{mod_resources_dir}/FallMed.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "FallHigh": {
-        "type": "file",
-        "name": "Fall High Sound",
-        "description": "Sound file to play when Fall High event is triggered.",
-        "default": "{mod_resources_dir}/FallHigh.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "FallVHigh": {
-        "type": "file",
-        "name": "Fall V High Sound",
-        "description": "Sound file to play when Fall V High event is triggered.",
-        "default": "{mod_resources_dir}/FallVHigh.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "JumpPush": {
-        "type": "file",
-        "name": "Jump Push Sound",
-        "description": "Sound file to play when Jump Push event is triggered.",
-        "default": "{mod_resources_dir}/JumpPush.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "JumpRelease": {
-        "type": "file",
-        "name": "Jump Release Sound",
-        "description": "Sound file to play when Jump Release event is triggered.",
-        "default": "{mod_resources_dir}/JumpRelease.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "LeftPush": {
-        "type": "file",
-        "name": "Left Push Sound",
-        "description": "Sound file to play when Left Push event is triggered.",
-        "default": "{mod_resources_dir}/LeftPush.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "LeftRelease": {
-        "type": "file",
-        "name": "Left Release Sound",
-        "description": "Sound file to play when Left Release event is triggered.",
-        "default": "{mod_resources_dir}/LeftRelease.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "RightPush": {
-        "type": "file",
-        "name": "Right Push Sound",
-        "description": "Sound file to play when Right Push event is triggered.",
-        "default": "{mod_resources_dir}/RightPush.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "RightRelease": {
-        "type": "file",
-        "name": "Right Release Sound",
-        "description": "Sound file to play when Right Release event is triggered.",
-        "default": "{mod_resources_dir}/RightRelease.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [
@@ -1260,59 +1028,9 @@
     "PlayerReversed": {
         "type": "file",
         "name": "Player Reversed Sound",
-        "description": "Sound file to play when Player Reversed event is triggered.",
+        "description": "Sound file to play when the Player Reversed event is triggered.",
         "default": "{mod_resources_dir}/PlayerReversed.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "FallSpeedLow": {
-        "type": "file",
-        "name": "Fall Speed Low Sound",
-        "description": "Sound file to play when Fall Speed Low event is triggered.",
-        "default": "{mod_resources_dir}/FallSpeedLow.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "FallSpeedMed": {
-        "type": "file",
-        "name": "Fall Speed Med Sound",
-        "description": "Sound file to play when Fall Speed Med event is triggered.",
-        "default": "{mod_resources_dir}/FallSpeedMed.ogg",
-        "control": {
-            "dialog": "open",
-            "filters": [
-                {
-                    "files": [
-                        "*.ogg"
-                    ],
-                    "description": "OGG Audio Files"
-                }
-            ]
-        }
-    },
-    "FallSpeedHigh": {
-        "type": "file",
-        "name": "Fall Speed High Sound",
-        "description": "Sound file to play when Fall Speed High event is triggered.",
-        "default": "{mod_resources_dir}/FallSpeedHigh.ogg",
+        "enable-if": "!use-resources",
         "control": {
             "dialog": "open",
             "filters": [

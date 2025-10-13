@@ -2,19 +2,13 @@
 
 using namespace geode::prelude;
 
+
 class $modify(SoundsBaseLayer, GJBaseGameLayer) {
 
 	std::string getEventName(GJGameEvent event) {
 		switch(static_cast<int>(event)) {
-			case 1: return "TinyLanding";
-			case 2: return "FeatherLanding";
-			case 3: return "SoftLanding";
-			case 4: return "NormalLanding";
-			case 5: return "HardLanding";
 			case 6: return "HitHead";
 			case 7: return "OrbTouched";
-			case 8: return "OrbActivated";
-			case 9: return "PadActivated";
 			case 10: return "GravityInverted";
 			case 11: return "GravityRestored";
 			case 12: return "NormalJump";
@@ -70,20 +64,7 @@ class $modify(SoundsBaseLayer, GJBaseGameLayer) {
 			case 62: return "UserCoin";
 			case 63: return "PickupItem";
 			case 64: return "CheckpointRespawn";
-			case 65: return "FallLow";
-			case 66: return "FallMed";
-			case 67: return "FallHigh";
-			case 68: return "FallVHigh";
-			case 69: return "JumpPush";
-			case 70: return "JumpRelease";
-			case 71: return "LeftPush";
-			case 72: return "LeftRelease";
-			case 73: return "RightPush";
-			case 74: return "RightRelease";
 			case 75: return "PlayerReversed";
-			case 76: return "FallSpeedLow";
-			case 77: return "FallSpeedMed";
-			case 78: return "FallSpeedHigh";
 			default: return "";
 		}
 	}
@@ -94,9 +75,13 @@ class $modify(SoundsBaseLayer, GJBaseGameLayer) {
 		std::string triggeredEvent = SoundsBaseLayer::getEventName(p0);
 		if (triggeredEvent.empty()) return;
 
-		auto soundToPlay = Mod::get()->getSettingValue<std::filesystem::path>(triggeredEvent);
-
-		//log::info("trying to play: {}", soundToPlay);
-		FMODAudioEngine::sharedEngine()->playEffect(fmt::format("{}", soundToPlay).c_str());
+		if (Mod::get()->getSettingValue<bool>("use-resources")) {
+			auto soundFromResources = fmt::format("{}.ogg"_spr, triggeredEvent);
+			FMODAudioEngine::sharedEngine()->playEffect(soundFromResources.c_str());
+		} else {
+			auto soundFromSettings = Mod::get()->getSettingValue<std::filesystem::path>(triggeredEvent);
+			FMODAudioEngine::sharedEngine()->playEffect(fmt::format("{}", soundFromSettings).c_str());
+		}
+		
 	}
 };
