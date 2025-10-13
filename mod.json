@@ -141,8 +141,8 @@
 		},
 		"UFOJump": {
 			"type": "file",
-			"name": "U F O Jump Sound",
-			"description": "Sound file to play when the U F O Jump event is triggered.",
+			"name": "UFO Jump Sound",
+			"description": "Sound file to play when the UFO Jump event is triggered.",
 			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
@@ -393,8 +393,8 @@
 		},
 		"PortalUFO": {
 			"type": "file",
-			"name": "Portal U F O Sound",
-			"description": "Sound file to play when the Portal U F O event is triggered.",
+			"name": "Portal UFO Sound",
+			"description": "Sound file to play when the Portal UFO event is triggered.",
 			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
