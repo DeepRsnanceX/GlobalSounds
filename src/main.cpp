@@ -2,7 +2,6 @@
 
 using namespace geode::prelude;
 
-
 class $modify(SoundsBaseLayer, GJBaseGameLayer) {
 
 	std::string getEventName(GJGameEvent event) {

@@ -17,7 +17,7 @@
 			"type": "file",
 			"name": "Hit Head Sound",
 			"description": "Sound file to play when the Hit Head event is triggered.",
-			"default": "{mod_resources_dir}/HitHead.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -35,7 +35,7 @@
 			"type": "file",
 			"name": "Orb Touched Sound",
 			"description": "Sound file to play when the Orb Touched event is triggered.",
-			"default": "{mod_resources_dir}/OrbTouched.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -53,7 +53,7 @@
 			"type": "file",
 			"name": "Gravity Inverted Sound",
 			"description": "Sound file to play when the Gravity Inverted event is triggered.",
-			"default": "{mod_resources_dir}/GravityInverted.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -71,7 +71,7 @@
 			"type": "file",
 			"name": "Gravity Restored Sound",
 			"description": "Sound file to play when the Gravity Restored event is triggered.",
-			"default": "{mod_resources_dir}/GravityRestored.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -89,7 +89,7 @@
 			"type": "file",
 			"name": "Normal Jump Sound",
 			"description": "Sound file to play when the Normal Jump event is triggered.",
-			"default": "{mod_resources_dir}/NormalJump.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -107,7 +107,7 @@
 			"type": "file",
 			"name": "Robot Boost Start Sound",
 			"description": "Sound file to play when the Robot Boost Start event is triggered.",
-			"default": "{mod_resources_dir}/RobotBoostStart.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -125,7 +125,7 @@
 			"type": "file",
 			"name": "Robot Boost Stop Sound",
 			"description": "Sound file to play when the Robot Boost Stop event is triggered.",
-			"default": "{mod_resources_dir}/RobotBoostStop.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -143,7 +143,7 @@
 			"type": "file",
 			"name": "U F O Jump Sound",
 			"description": "Sound file to play when the U F O Jump event is triggered.",
-			"default": "{mod_resources_dir}/UFOJump.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -161,7 +161,7 @@
 			"type": "file",
 			"name": "Ship Boost Start Sound",
 			"description": "Sound file to play when the Ship Boost Start event is triggered.",
-			"default": "{mod_resources_dir}/ShipBoostStart.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -179,7 +179,7 @@
 			"type": "file",
 			"name": "Ship Boost End Sound",
 			"description": "Sound file to play when the Ship Boost End event is triggered.",
-			"default": "{mod_resources_dir}/ShipBoostEnd.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -197,7 +197,7 @@
 			"type": "file",
 			"name": "Spider Teleport Sound",
 			"description": "Sound file to play when the Spider Teleport event is triggered.",
-			"default": "{mod_resources_dir}/SpiderTeleport.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -215,7 +215,7 @@
 			"type": "file",
 			"name": "Ball Switch Sound",
 			"description": "Sound file to play when the Ball Switch event is triggered.",
-			"default": "{mod_resources_dir}/BallSwitch.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -233,7 +233,7 @@
 			"type": "file",
 			"name": "Swing Switch Sound",
 			"description": "Sound file to play when the Swing Switch event is triggered.",
-			"default": "{mod_resources_dir}/SwingSwitch.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -251,7 +251,7 @@
 			"type": "file",
 			"name": "Wave Push Sound",
 			"description": "Sound file to play when the Wave Push event is triggered.",
-			"default": "{mod_resources_dir}/WavePush.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -269,7 +269,7 @@
 			"type": "file",
 			"name": "Wave Release Sound",
 			"description": "Sound file to play when the Wave Release event is triggered.",
-			"default": "{mod_resources_dir}/WaveRelease.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -287,7 +287,7 @@
 			"type": "file",
 			"name": "Dash Start Sound",
 			"description": "Sound file to play when the Dash Start event is triggered.",
-			"default": "{mod_resources_dir}/DashStart.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -305,7 +305,7 @@
 			"type": "file",
 			"name": "Dash Stop Sound",
 			"description": "Sound file to play when the Dash Stop event is triggered.",
-			"default": "{mod_resources_dir}/DashStop.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -323,7 +323,7 @@
 			"type": "file",
 			"name": "Teleported Sound",
 			"description": "Sound file to play when the Teleported event is triggered.",
-			"default": "{mod_resources_dir}/Teleported.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -341,7 +341,7 @@
 			"type": "file",
 			"name": "Portal Normal Sound",
 			"description": "Sound file to play when the Portal Normal event is triggered.",
-			"default": "{mod_resources_dir}/PortalNormal.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -359,7 +359,7 @@
 			"type": "file",
 			"name": "Portal Ship Sound",
 			"description": "Sound file to play when the Portal Ship event is triggered.",
-			"default": "{mod_resources_dir}/PortalShip.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -377,7 +377,7 @@
 			"type": "file",
 			"name": "Portal Ball Sound",
 			"description": "Sound file to play when the Portal Ball event is triggered.",
-			"default": "{mod_resources_dir}/PortalBall.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -395,7 +395,7 @@
 			"type": "file",
 			"name": "Portal U F O Sound",
 			"description": "Sound file to play when the Portal U F O event is triggered.",
-			"default": "{mod_resources_dir}/PortalUFO.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -413,7 +413,7 @@
 			"type": "file",
 			"name": "Portal Wave Sound",
 			"description": "Sound file to play when the Portal Wave event is triggered.",
-			"default": "{mod_resources_dir}/PortalWave.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -431,7 +431,7 @@
 			"type": "file",
 			"name": "Portal Robot Sound",
 			"description": "Sound file to play when the Portal Robot event is triggered.",
-			"default": "{mod_resources_dir}/PortalRobot.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -449,7 +449,7 @@
 			"type": "file",
 			"name": "Portal Spider Sound",
 			"description": "Sound file to play when the Portal Spider event is triggered.",
-			"default": "{mod_resources_dir}/PortalSpider.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -467,7 +467,7 @@
 			"type": "file",
 			"name": "Portal Swing Sound",
 			"description": "Sound file to play when the Portal Swing event is triggered.",
-			"default": "{mod_resources_dir}/PortalSwing.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -485,7 +485,7 @@
 			"type": "file",
 			"name": "Yellow Orb Sound",
 			"description": "Sound file to play when the Yellow Orb event is triggered.",
-			"default": "{mod_resources_dir}/YellowOrb.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -503,7 +503,7 @@
 			"type": "file",
 			"name": "Pink Orb Sound",
 			"description": "Sound file to play when the Pink Orb event is triggered.",
-			"default": "{mod_resources_dir}/PinkOrb.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -521,7 +521,7 @@
 			"type": "file",
 			"name": "Red Orb Sound",
 			"description": "Sound file to play when the Red Orb event is triggered.",
-			"default": "{mod_resources_dir}/RedOrb.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -539,7 +539,7 @@
 			"type": "file",
 			"name": "Gravity Orb Sound",
 			"description": "Sound file to play when the Gravity Orb event is triggered.",
-			"default": "{mod_resources_dir}/GravityOrb.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -557,7 +557,7 @@
 			"type": "file",
 			"name": "Green Orb Sound",
 			"description": "Sound file to play when the Green Orb event is triggered.",
-			"default": "{mod_resources_dir}/GreenOrb.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -575,7 +575,7 @@
 			"type": "file",
 			"name": "Drop Orb Sound",
 			"description": "Sound file to play when the Drop Orb event is triggered.",
-			"default": "{mod_resources_dir}/DropOrb.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -593,7 +593,7 @@
 			"type": "file",
 			"name": "Custom Orb Sound",
 			"description": "Sound file to play when the Custom Orb event is triggered.",
-			"default": "{mod_resources_dir}/CustomOrb.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -611,7 +611,7 @@
 			"type": "file",
 			"name": "Dash Orb Sound",
 			"description": "Sound file to play when the Dash Orb event is triggered.",
-			"default": "{mod_resources_dir}/DashOrb.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -629,7 +629,7 @@
 			"type": "file",
 			"name": "Gravity Dash Orb Sound",
 			"description": "Sound file to play when the Gravity Dash Orb event is triggered.",
-			"default": "{mod_resources_dir}/GravityDashOrb.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -647,7 +647,7 @@
 			"type": "file",
 			"name": "Spider Orb Sound",
 			"description": "Sound file to play when the Spider Orb event is triggered.",
-			"default": "{mod_resources_dir}/SpiderOrb.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -665,7 +665,7 @@
 			"type": "file",
 			"name": "Teleport Orb Sound",
 			"description": "Sound file to play when the Teleport Orb event is triggered.",
-			"default": "{mod_resources_dir}/TeleportOrb.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -683,7 +683,7 @@
 			"type": "file",
 			"name": "Yellow Pad Sound",
 			"description": "Sound file to play when the Yellow Pad event is triggered.",
-			"default": "{mod_resources_dir}/YellowPad.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -701,7 +701,7 @@
 			"type": "file",
 			"name": "Pink Pad Sound",
 			"description": "Sound file to play when the Pink Pad event is triggered.",
-			"default": "{mod_resources_dir}/PinkPad.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -719,7 +719,7 @@
 			"type": "file",
 			"name": "Red Pad Sound",
 			"description": "Sound file to play when the Red Pad event is triggered.",
-			"default": "{mod_resources_dir}/RedPad.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -737,7 +737,7 @@
 			"type": "file",
 			"name": "Gravity Pad Sound",
 			"description": "Sound file to play when the Gravity Pad event is triggered.",
-			"default": "{mod_resources_dir}/GravityPad.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -755,7 +755,7 @@
 			"type": "file",
 			"name": "Spider Pad Sound",
 			"description": "Sound file to play when the Spider Pad event is triggered.",
-			"default": "{mod_resources_dir}/SpiderPad.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -773,7 +773,7 @@
 			"type": "file",
 			"name": "Portal Gravity Flip Sound",
 			"description": "Sound file to play when the Portal Gravity Flip event is triggered.",
-			"default": "{mod_resources_dir}/PortalGravityFlip.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -791,7 +791,7 @@
 			"type": "file",
 			"name": "Portal Gravity Normal Sound",
 			"description": "Sound file to play when the Portal Gravity Normal event is triggered.",
-			"default": "{mod_resources_dir}/PortalGravityNormal.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -809,7 +809,7 @@
 			"type": "file",
 			"name": "Portal Gravity Invert Sound",
 			"description": "Sound file to play when the Portal Gravity Invert event is triggered.",
-			"default": "{mod_resources_dir}/PortalGravityInvert.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -827,7 +827,7 @@
 			"type": "file",
 			"name": "Portal Flip Sound",
 			"description": "Sound file to play when the Portal Flip event is triggered.",
-			"default": "{mod_resources_dir}/PortalFlip.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -845,7 +845,7 @@
 			"type": "file",
 			"name": "Portal Un Flip Sound",
 			"description": "Sound file to play when the Portal Un Flip event is triggered.",
-			"default": "{mod_resources_dir}/PortalUnFlip.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -863,7 +863,7 @@
 			"type": "file",
 			"name": "Portal Normal Scale Sound",
 			"description": "Sound file to play when the Portal Normal Scale event is triggered.",
-			"default": "{mod_resources_dir}/PortalNormalScale.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -881,7 +881,7 @@
 			"type": "file",
 			"name": "Portal Mini Scale Sound",
 			"description": "Sound file to play when the Portal Mini Scale event is triggered.",
-			"default": "{mod_resources_dir}/PortalMiniScale.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -899,7 +899,7 @@
 			"type": "file",
 			"name": "Portal Dual On Sound",
 			"description": "Sound file to play when the Portal Dual On event is triggered.",
-			"default": "{mod_resources_dir}/PortalDualOn.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -917,7 +917,7 @@
 			"type": "file",
 			"name": "Portal Dual Off Sound",
 			"description": "Sound file to play when the Portal Dual Off event is triggered.",
-			"default": "{mod_resources_dir}/PortalDualOff.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -935,7 +935,7 @@
 			"type": "file",
 			"name": "Portal Teleport Sound",
 			"description": "Sound file to play when the Portal Teleport event is triggered.",
-			"default": "{mod_resources_dir}/PortalTeleport.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -953,7 +953,7 @@
 			"type": "file",
 			"name": "Checkpoint Sound",
 			"description": "Sound file to play when the Checkpoint event is triggered.",
-			"default": "{mod_resources_dir}/Checkpoint.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -971,7 +971,7 @@
 			"type": "file",
 			"name": "Destroy Block Sound",
 			"description": "Sound file to play when the Destroy Block event is triggered.",
-			"default": "{mod_resources_dir}/DestroyBlock.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -989,7 +989,7 @@
 			"type": "file",
 			"name": "User Coin Sound",
 			"description": "Sound file to play when the User Coin event is triggered.",
-			"default": "{mod_resources_dir}/UserCoin.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -1007,7 +1007,7 @@
 			"type": "file",
 			"name": "Pickup Item Sound",
 			"description": "Sound file to play when the Pickup Item event is triggered.",
-			"default": "{mod_resources_dir}/PickupItem.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -1025,7 +1025,7 @@
 			"type": "file",
 			"name": "Checkpoint Respawn Sound",
 			"description": "Sound file to play when the Checkpoint Respawn event is triggered.",
-			"default": "{mod_resources_dir}/CheckpointRespawn.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
@@ -1043,7 +1043,7 @@
 			"type": "file",
 			"name": "Player Reversed Sound",
 			"description": "Sound file to play when the Player Reversed event is triggered.",
-			"default": "{mod_resources_dir}/PlayerReversed.ogg",
+			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
