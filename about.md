@@ -12,12 +12,15 @@ You can choose your own .ogg files to be played on each game event there! If you
 You can set as many SFX as you want, no need to set all of them! If you only want some events to play a sound, you can set only those few and have the rest unset!
 
 ### Via Texture Packs
-At the very top of the Settings List, you will find a setting called "Use Resources Folder", if you enable this, the mod will look in its Resources folder for the SFX to play. This way, you can create your own Sound Packs by simply creating a folder named ***"saritahhh.globalsounds"*** (without the quotes) in your Texture Pack, and placing your Sound Effects there!
+At the very top of the Settings List, you will find a setting called "Use Resources Folder", if you enable this, the mod will look in the GD Resources folder for the SFX to play. This way, you can create your own Sound Packs by simply creating a folder named `saritahhh.globalsounds` in your Texture Pack, and placing your Sound Effects there! 
 Simply make sure that folder exists in your Texture Pack, and name your sound effect the same as the Event you want it to play on! For example:
 
 - RedOrb.ogg -> Will play when a Red Orb is activated.
 - YellowPad.ogg -> Will play when a Yellow Pad is activated.
 - BallSwitch.ogg -> Will play when changing gravity with the Ball gamemode.
+
+### Texture Loader compatibility
+The mod is compatible with Texture Packs using the Texutre Loader mod. You add sounds the same way as in the GD Resources, by creating a folder named `saritahhh.globalsounds` at the root of the texture pack 
 
 ## Available events
 The full list of available events is as follows:

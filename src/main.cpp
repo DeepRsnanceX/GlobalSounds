@@ -3,17 +3,30 @@
 #include <Geode/Enums.hpp>
 #include <Geode/modify/GJBaseGameLayer.hpp>
 #include <filesystem>
+#include <enchantum/enchantum.hpp>
+#include "TextureLoader.hpp"
+
+constexpr const char* RESOURCES_SOUNDS_FOLDER_NAME = "saritahhh.globalsounds";
 
 using namespace geode::prelude;
 
-#include <enchantum/enchantum.hpp>
 
+namespace fs = std::filesystem;
 
-
+std::vector<fs::path> getAllResourceDirs() {
+	auto packs = texture_loader::getAppliedPacks();
+	std::vector<fs::path> ret;
+	ret.reserve(packs.size());
+	ret.push_back(geode::dirs::getResourcesDir());
+	for(const auto& pack : packs) {
+		ret.push_back(pack.resourcesPath);
+	}
+	return ret;
+}
 class $modify(SoundsBaseLayer, GJBaseGameLayer) {
 
 	struct Fields {
-		std::unordered_map<GJGameEvent, std::filesystem::path> cachedFilePaths;
+		std::unordered_map<GJGameEvent, fs::path> cachedFilePaths;
 	}; 
 	bool init() {
 		if (!GJBaseGameLayer::init()) return false;
@@ -21,22 +34,34 @@ class $modify(SoundsBaseLayer, GJBaseGameLayer) {
 		//cache the events we need to check only
 		auto fields = m_fields.self();
 		bool useResources = Mod::get()->getSettingValue<bool>("use-resources");
-		for(const auto& [event, event_name] : enchantum::entries_generator<GJGameEvent>) {
-			if(useResources) {
-				auto file = geode::dirs::getResourcesDir() / fmt::format("{}.ogg", event_name);
-				if(std::filesystem::exists(file)) {
-					fields->cachedFilePaths.insert({event, file});
-				}
-			}
-			else {
-				auto file = Mod::get()->getSettingValue<std::filesystem::path>(event_name);
-				// @geode-ignore(unknown-resource)
-				if(file.filename() != "unset.ogg" && std::filesystem::exists(file)) {
-					fields->cachedFilePaths.insert({event, file});
-				}
-			}
+		if(useResources) {
+			auto packs = texture_loader::getAppliedPacks();
+			for(const auto& [event, event_name] : enchantum::entries_generator<GJGameEvent>) {
+				std::string file_name = fmt::format("{}.ogg", event_name);
+				for(auto dir : getAllResourceDirs()) {
 
+					//if there is a single folder in the pack then texture loader treats that as the root route for resources...
+					if(dir.filename() != RESOURCES_SOUNDS_FOLDER_NAME) {
+						dir /= RESOURCES_SOUNDS_FOLDER_NAME;
+					}
+					fs::path file = dir / file_name;
+					if(fs::exists(file)) {
+						fields->cachedFilePaths.insert({event, file});
+					}
+				}
+
+			}
 		}
+		else {
+			for(const auto& [event, event_name] : enchantum::entries_generator<GJGameEvent>) {
+				auto file = Mod::get()->getSettingValue<fs::path>(event_name);
+				// @geode-ignore(unknown-resource)
+				if(file.filename() != "unset.ogg" && fs::exists(file)) {
+					fields->cachedFilePaths.insert({event, file});
+				}
+			}
+		}
+
 
 		return true;
 	}
