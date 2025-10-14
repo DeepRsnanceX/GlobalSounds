@@ -1,87 +1,63 @@
+#include "Geode/cocos/platform/CCFileUtils.h"
+#include "Geode/loader/Dirs.hpp"
+#include <Geode/Enums.hpp>
 #include <Geode/modify/GJBaseGameLayer.hpp>
+#include <filesystem>
 
 using namespace geode::prelude;
 
+#include <enchantum/enchantum.hpp>
+
+
+
 class $modify(SoundsBaseLayer, GJBaseGameLayer) {
 
-	std::string getEventName(GJGameEvent event) {
-		switch(static_cast<int>(event)) {
-			case 6: return "HitHead";
-			case 7: return "OrbTouched";
-			case 10: return "GravityInverted";
-			case 11: return "GravityRestored";
-			case 12: return "NormalJump";
-			case 13: return "RobotBoostStart";
-			case 14: return "RobotBoostStop";
-			case 15: return "UFOJump";
-			case 16: return "ShipBoostStart";
-			case 17: return "ShipBoostEnd";
-			case 18: return "SpiderTeleport";
-			case 19: return "BallSwitch";
-			case 20: return "SwingSwitch";
-			case 21: return "WavePush";
-			case 22: return "WaveRelease";
-			case 23: return "DashStart";
-			case 24: return "DashStop";
-			case 25: return "Teleported";
-			case 26: return "PortalNormal";
-			case 27: return "PortalShip";
-			case 28: return "PortalBall";
-			case 29: return "PortalUFO";
-			case 30: return "PortalWave";
-			case 31: return "PortalRobot";
-			case 32: return "PortalSpider";
-			case 33: return "PortalSwing";
-			case 34: return "YellowOrb";
-			case 35: return "PinkOrb";
-			case 36: return "RedOrb";
-			case 37: return "GravityOrb";
-			case 38: return "GreenOrb";
-			case 39: return "DropOrb";
-			case 40: return "CustomOrb";
-			case 41: return "DashOrb";
-			case 42: return "GravityDashOrb";
-			case 43: return "SpiderOrb";
-			case 44: return "TeleportOrb";
-			case 45: return "YellowPad";
-			case 46: return "PinkPad";
-			case 47: return "RedPad";
-			case 48: return "GravityPad";
-			case 49: return "SpiderPad";
-			case 50: return "PortalGravityFlip";
-			case 51: return "PortalGravityNormal";
-			case 52: return "PortalGravityInvert";
-			case 53: return "PortalFlip";
-			case 54: return "PortalUnFlip";
-			case 55: return "PortalNormalScale";
-			case 56: return "PortalMiniScale";
-			case 57: return "PortalDualOn";
-			case 58: return "PortalDualOff";
-			case 59: return "PortalTeleport";
-			case 60: return "Checkpoint";
-			case 61: return "DestroyBlock";
-			case 62: return "UserCoin";
-			case 63: return "PickupItem";
-			case 64: return "CheckpointRespawn";
-			case 75: return "PlayerReversed";
-			default: return "";
+	struct Fields {
+		std::unordered_map<GJGameEvent, std::filesystem::path> cachedFilePaths;
+	}; 
+	bool init() {
+		if (!GJBaseGameLayer::init()) return false;
+
+		//cache the events we need to check only
+		auto fields = m_fields.self();
+		bool useResources = Mod::get()->getSettingValue<bool>("use-resources");
+		for(const auto& [event, event_name] : enchantum::entries_generator<GJGameEvent>) {
+			if(useResources) {
+				auto file = geode::dirs::getResourcesDir() / fmt::format("{}.ogg", event_name);
+				if(std::filesystem::exists(file)) {
+					fields->cachedFilePaths.insert({event, file});
+				}
+			}
+			else {
+				auto file = Mod::get()->getSettingValue<std::filesystem::path>(event_name);
+				// @geode-ignore(unknown-resource)
+				if(file.filename() != "unset.ogg" && std::filesystem::exists(file)) {
+					fields->cachedFilePaths.insert({event, file});
+				}
+			}
+
 		}
+
+		return true;
 	}
+	void gameEventTriggered(GJGameEvent event, int input, int player) {
+		//this function is called twice for almost all events
+        //input == 0 and player == 0 events are unnecessary but some events dont have a player set for some reason
+        //all events seem to be in order so this seems safe
+        static bool ignoreNext = false;
 
-	void gameEventTriggered(GJGameEvent p0, int p1, int p2) {
-		GJBaseGameLayer::gameEventTriggered(p0, p1, p2);
+		if(ignoreNext) {
+            ignoreNext = false;
+            return GJBaseGameLayer::gameEventTriggered(event, input, player);
+        }
+        if(player != 0) {
+            ignoreNext = true;
+        }
 
-		std::string triggeredEvent = SoundsBaseLayer::getEventName(p0);
-		if (triggeredEvent.empty()) return;
-
-		if (Mod::get()->getSettingValue<bool>("use-resources")) {
-			auto soundFromResources = fmt::format("{}.ogg"_spr, triggeredEvent);
-			if (!std::filesystem::exists(soundFromResources)) return;
-			FMODAudioEngine::sharedEngine()->playEffect(soundFromResources.c_str());
-		} else {
-			auto soundFromSettings = Mod::get()->getSettingValue<std::filesystem::path>(triggeredEvent);
-			FMODAudioEngine::sharedEngine()->playEffect(fmt::format("{}", soundFromSettings).c_str());
+		GJBaseGameLayer::gameEventTriggered(event, input, player);
+		auto& cachedFilePaths = m_fields->cachedFilePaths;
+		if(auto it = m_fields->cachedFilePaths.find(event); it != m_fields->cachedFilePaths.end()) {
+			FMODAudioEngine::sharedEngine()->playEffect(it->second.string());
 		}
-		
 	}
 };

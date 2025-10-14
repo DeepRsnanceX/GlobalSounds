@@ -13,6 +13,7 @@
 			"description": "If enabled, will fetch all SFXs from the mod's Resources folder, instead of allowing for individual customization with all the settings listed here.\nEnable if you wanna use Texture Packs as your method to load SFX instead of individual settings.",
 			"default": false
 		},
+
 		"HitHead": {
 			"type": "file",
 			"name": "Hit Head Sound",
@@ -23,9 +24,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -41,9 +40,39 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
+						"description": "OGG Audio Files"
+					}
+				]
+			}
+		},
+		"OrbActivated": {
+			"type": "file",
+			"name": "Orb Activated Sound",
+			"description": "Sound file to play when the Orb Activated event is triggered.",
+			"default": "{mod_resources_dir}/unset.ogg",
+			"enable-if": "!use-resources",
+			"control": {
+				"dialog": "open",
+				"filters": [
+					{
+						"files": ["*.ogg"],
+						"description": "OGG Audio Files"
+					}
+				]
+			}
+		},
+		"PadActivated": {
+			"type": "file",
+			"name": "Pad Activated Sound",
+			"description": "Sound file to play when the Pad Activated event is triggered.",
+			"default": "{mod_resources_dir}/unset.ogg",
+			"enable-if": "!use-resources",
+			"control": {
+				"dialog": "open",
+				"filters": [
+					{
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -59,9 +88,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -77,9 +104,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -95,9 +120,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -113,9 +136,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -131,9 +152,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -149,9 +168,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -167,9 +184,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -185,9 +200,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -203,9 +216,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -221,9 +232,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -239,9 +248,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -257,9 +264,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -275,9 +280,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -293,9 +296,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -311,9 +312,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -329,9 +328,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -347,9 +344,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -365,9 +360,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -383,9 +376,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -393,17 +384,15 @@
 		},
 		"PortalUFO": {
 			"type": "file",
-			"name": "Portal UFO Sound",
-			"description": "Sound file to play when the Portal UFO event is triggered.",
+			"name": "PortalUFO Sound",
+			"description": "Sound file to play when the PortalUFO event is triggered.",
 			"default": "{mod_resources_dir}/unset.ogg",
 			"enable-if": "!use-resources",
 			"control": {
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -419,9 +408,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -437,9 +424,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -455,9 +440,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -473,9 +456,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -491,9 +472,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -509,9 +488,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -527,9 +504,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -545,9 +520,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -563,9 +536,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -581,9 +552,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -599,9 +568,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -617,9 +584,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -635,9 +600,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -653,9 +616,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -671,9 +632,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -689,9 +648,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -707,9 +664,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -725,9 +680,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -743,9 +696,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -761,9 +712,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -779,9 +728,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -797,9 +744,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -815,9 +760,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -833,9 +776,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -851,9 +792,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -869,9 +808,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -887,9 +824,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -905,9 +840,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -923,9 +856,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -941,9 +872,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -959,9 +888,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -977,9 +904,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -995,9 +920,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -1013,9 +936,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -1031,9 +952,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
@@ -1049,9 +968,7 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": [
-							"*.ogg"
-						],
+						"files": ["*.ogg"],
 						"description": "OGG Audio Files"
 					}
 				]
