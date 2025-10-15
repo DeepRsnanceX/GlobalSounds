@@ -24,8 +24,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -40,8 +40,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -56,8 +56,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -72,8 +72,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -88,8 +88,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -104,8 +104,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -120,8 +120,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -136,8 +136,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -152,8 +152,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -168,8 +168,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -184,8 +184,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -200,8 +200,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -216,8 +216,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -232,8 +232,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -248,8 +248,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -264,8 +264,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -280,8 +280,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -296,8 +296,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -312,8 +312,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -328,8 +328,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -344,8 +344,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -360,8 +360,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -376,8 +376,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -392,8 +392,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -408,8 +408,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -424,8 +424,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -440,8 +440,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -456,8 +456,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -472,8 +472,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -488,8 +488,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -504,8 +504,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -520,8 +520,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -536,8 +536,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -552,8 +552,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -568,8 +568,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -584,8 +584,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -600,8 +600,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -616,8 +616,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -632,8 +632,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -648,8 +648,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -664,8 +664,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -680,8 +680,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -696,8 +696,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -712,8 +712,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -728,8 +728,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -744,8 +744,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -760,8 +760,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -776,8 +776,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -792,8 +792,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -808,8 +808,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -824,8 +824,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -840,8 +840,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -856,8 +856,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -872,8 +872,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -888,8 +888,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -904,8 +904,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -920,8 +920,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -936,8 +936,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -952,8 +952,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -968,8 +968,8 @@
 				"dialog": "open",
 				"filters": [
 					{
-						"files": ["*.ogg"],
-						"description": "OGG Audio Files"
+						"files": ["*.ogg", "*.wav"],
+						"description": "Audio Files"
 					}
 				]
 			}
@@ -983,7 +983,8 @@
 	"id": "saritahhh.globalsounds",
 	"name": "GlobalSounds",
 	"version": "v1.0.0",
-	"developer": "Saritahhh",
+	"tags": ["offline", "gameplay", "customization"],
+	"developers": ["Saritahhh", "iAndyHD3"],
 	"description": "Play custom SFX on game events!",
 	"links": {
 		"source": "https://github.com/DeepRsnanceX/GlobalSounds"
