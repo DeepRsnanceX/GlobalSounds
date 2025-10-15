@@ -27,6 +27,8 @@ The full list of available events is as follows:
 
 - HitHead
 - OrbTouched
+- OrbActivated
+- PadActivated
 - GravityInverted
 - GravityRestored
 - NormalJump
@@ -88,3 +90,7 @@ The full list of available events is as follows:
 
 - If the "Use Resources Folder" setting is **enabled**, the mod will use its Resources folder. AKA, you can use Texture Packs to set your sounds.
 - If the "Use Resources Folder" setting is **disabled**, the mod will only use the individual Sound files you have set on your mod's Settings Page.
+
+# CREDITS
+- gdjayy: Idea for the mod.
+- iAndyHD3: Greatly improved the mod's code and performance, original creator of 2.1 mod.
